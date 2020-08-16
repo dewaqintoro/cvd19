@@ -12,7 +12,7 @@ const LoginDew = () => {
     // console.log('Received values of form: ', values.username);
     if(values.username === "admin" && values.password === "admin"){
       // console.log("ini siapa")
-      router.push('/admin')
+      router.push('/persebaran')
       // wadudu="1"
       // history.push('/app');
       // <Link href="/persebaran">
